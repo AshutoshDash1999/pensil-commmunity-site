@@ -5,68 +5,64 @@ function Footer() {
     <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
-          <a href="https://flowbite.com/" className="flex items-center">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="mr-3 h-8"
-              alt="FlowBite Logo"
-            />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
+          <a href="#" className="flex items-center space-x-2">
+          <img src="./logo.png" />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#0046ff] to-black self-center text-4xl font-semibold whitespace-nowrap">
+            Community
+          </span>
           </a>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Resources
+              Creators
             </h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <a href="https://flowbite.com/" className="hover:underline">
-                  Flowbite
+                <a href="https://ashutoshdash.netlify.app/" className="hover:underline">
+                  Ashutosh Dash
                 </a>
               </li>
               <li>
-                <a href="https://tailwindcss.com/" className="hover:underline">
-                  Tailwind CSS
+                <a href="" className="hover:underline">
+                  Suraj Roy
                 </a>
               </li>
             </ul>
           </div>
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Follow us
+              Follow our work
             </h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
                 <a
-                  href="https://github.com/themesberg/flowbite"
+                  href=""
                   className="hover:underline "
                 >
                   Github
                 </a>
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                  Discord
+                <a href="" className="hover:underline">
+                  Behance
                 </a>
               </li>
             </ul>
           </div>
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Legal
+              Contact Us
             </h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Privacy Policy
+                <a href="mailto:dashashutosh1999@gmail.com" className="hover:underline">
+                  dashashutosh1999@gmail.com
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
+                  
                 </a>
               </li>
             </ul>
