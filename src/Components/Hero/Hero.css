@@ -1,0 +1,4 @@
+section.hero-section{
+    background: url("./hero-bg.png") center center no-repeat;
+    background-size: cover;
+}
