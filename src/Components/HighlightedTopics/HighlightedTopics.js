@@ -2,65 +2,106 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import "./HighlightedTopics.css";
 import { Tooltip } from "@material-tailwind/react";
+import { motion } from "framer-motion";
 
 function HighlightedTopics() {
   return (
     <section className="my-8">
       <Marquee pauseOnHover={true}>
         <Tooltip content="Apple Fan's Community">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div
+            className="p-4 mx-2 rounded-full"
+            initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+            animate={{ rotate: '0deg', opacity:1, scale:1 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+          >
             <img src="./highlighted-icons/Apple_Logo.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Coder's Community" placement="bottom">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+           initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+           animate={{ rotate: '0deg', opacity:1, scale:1 }}
+           transition={{ ease: "easeOut", duration: 1.25 }}
+          >
             <img src="./highlighted-icons/Code_File.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Design Community">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+           initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+           animate={{ rotate: '0deg', opacity:1, scale:1 }}
+           transition={{ ease: "easeOut", duration: 1.5 }}>
             <img src="./highlighted-icons/Dribbble.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Battle Royal Community" placement="bottom">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 1.75 }}>
             <img src="./highlighted-icons/Free_Fire.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Gaming Community">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full" initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+           animate={{ rotate: '0deg', opacity:1, scale:1 }}
+           transition={{ ease: "easeOut", duration: 2 }}>
             <img src="./highlighted-icons/Game_Controller.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="GitHub Community" placement="bottom">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 2.25 }}
+          >
             <img src="./highlighted-icons/GitHub.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Music Lovers">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 2.5 }}
+          >
             <img src="./highlighted-icons/Music.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="React Community" placement="bottom">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 2.75 }}
+          >
             <img src="./highlighted-icons/React_Native.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Swift Community">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 3 }}
+          >
             <img src="./highlighted-icons/Swift.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Dating Community" placement="bottom">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 3.25 }}
+          >
             <img src="./highlighted-icons/Tinder.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
         <Tooltip content="Creator's Community">
-          <div className="p-4 mx-2 rounded-full">
+          <motion.div className="p-4 mx-2 rounded-full"
+          initial={{ rotate:'-90deg', opacity: 0, scale:0 }}
+          animate={{ rotate: '0deg', opacity:1, scale:1 }}
+          transition={{ ease: "easeOut", duration: 3.5 }}>
             <img src="./highlighted-icons/Youtube.png" alt="" />
-          </div>
+          </motion.div>
         </Tooltip>
       </Marquee>
     </section>

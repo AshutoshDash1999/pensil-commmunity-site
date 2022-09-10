@@ -6,7 +6,7 @@ function CommunityCard({communityName, communityBanner, communityUsers}) {
     
 <div className="w-full max-w-sm bg-gray-50 rounded-lg hover:bg-gray-100 shadow-md hover:shadow-xl transition ease-in-out duration-150">
     <div className='h-min overflow-hidden'>
-        <img className="p-5 h-48 rounded-3xl w-full object-cover hover:scale-125 transition-all duration-300" src={communityBanner} alt="product image"/>
+        <img className="p-5 h-48 rounded-3xl w-full object-cover group-hover:scale-125 transition-all duration-300" src={communityBanner} alt="product image"/>
     </div>
     <div className="px-5 pb-5">
         <a href="#">
