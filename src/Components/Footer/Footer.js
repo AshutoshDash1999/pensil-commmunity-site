@@ -24,7 +24,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="" className="hover:underline">
+                <a href="https://drive.google.com/file/d/15k1l9XZahXXTSfGCrU4_KFElbHUjZrvX/view" className="hover:underline">
                   Suraj Roy
                 </a>
               </li>
@@ -37,15 +37,15 @@ function Footer() {
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
                 <a
-                  href=""
+                  href="https://github.com/AshutoshDash1999"
                   className="hover:underline "
                 >
                   Github
                 </a>
               </li>
               <li>
-                <a href="" className="hover:underline">
-                  Behance
+                <a href="https://www.instagram.com/surajkroy_arte/" className="hover:underline">
+                  Instagram
                 </a>
               </li>
             </ul>
@@ -61,8 +61,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  
+                <a href="mailto:surajroni2000@gmail.com" className="hover:underline">
+                surajroni2000@gmail.com
                 </a>
               </li>
             </ul>
@@ -73,8 +73,8 @@ function Footer() {
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2022{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
-            Flowbite™
+          <a href="" className="hover:underline">
+            Pencil Community™
           </a>
           . All Rights Reserved.
         </span>

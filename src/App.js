@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import CommunitySuggestions from "./Components/CommunitySuggestions/CommunitySuggestions";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import HighlightedTopics from "./Components/HighlightedTopics/HighlightedTopics";
@@ -15,7 +16,7 @@ function App() {
         <div className="main-content-container relative top-4 left-60 mx-8 overflow-y-auto w-4/5">
           <Hero/>
           <HighlightedTopics/>
-
+          <CommunitySuggestions/>
           <Footer/>
         </div>
       </div>
